@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+    <!-- 
+      TODO
+
+      Upload your Unemployable (or whatever photo you like) to the assets/images folder
+      and change the name of the image below to match the uploaded one
+
+      Change the title in the <title> tag to whatever you would like the title of your portfolio to be
+
+      This should be the same across all pages.
+     -->
+    <link rel="icon" href="./assets/images/pixel me.png" />
+		<title>@tsaidav's Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/typography.css">
+    <link rel="stylesheet" href="./css/utilities.css">
+
+		<script defer src="./js/script.js"></script>
+	</head>
+	<body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <a class="nav-title-link" href="./index.html">
+        <!-- "Portfolio Title" displayed in the top left -->
+        <span class="nav-title">@tsaidav</span>
+         <!-- TODO - Change the email after 'mailto:' to your email address for contact -->
+        <a class="button" href="https://www.linkedin.com/in/david-tsai001/">
+          <span class="button-text">Find me on LinkedIn!</span>
+        </a>
+      </a>
+    </div>
+
+    <!-- MAIN PAGE CONTENT -->
+    <div id="main-content">
+
+      <!-- PORTFOLIO HEADER -->
+      <div id="portfolio-header">
+        <div id="portfolio-header-image-container">
+          <!-- 
+            TODO
+
+            - Change the img "src" attribute to point to "pixel me.png".
+            - "a" element - hyperlink to Pearler Site
+          -->
+          <img src="./assets/images/pixel me.png" class="portfolio-header-image">
+          <a class="no-underline" target="_blank" href="https://pearler.com/">
+            <span class="image-caption">Currently making magic at Pearler!</span>
+          </a>
+        </div>
+
+          <!-- 
+            TODO
+
+            - Change the main-title to whatver you want
+            - Change the body-text after that to a quick introduction to what you do
+            - Edit the button text if you feel like it. It will link to the projects section below.
+          -->
+        <div id="portfolio-header-text-container">
+            <div class="header-text">
+              <span class="main-title">Hey, I'm David.</span>
+              <div class="body-text">I’m a designer/developer/student who continuously learns, solves problems and has worked with a wide variety of different clients.</div>
+            </div>
+            <a class="button" id="my-work-link">
+              <span class="button-text">Check out my projects</span> 
+              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+            </a>
+        </div>
+      </div>
+
+      <!-- ABOUT SECTION -->
+      <!-- 
+        TODO
+
+        - Change the subheader-text to whatever header you want
+        - Add paragraphs using the <div class="body-text"></div> elements in the "about-section-content"
+      -->
+      <div id="about-section">
+        <span class="subheader-text">My Background / About Me</span>
+        <div class="about-section-content">
+          <div class="body-text">I am a final-year student studying a Bachelor of Commerce/Science (majors in Finance and Statistics respectively) at The University of New South Wales.</div>
+          <div class="body-text">I am currently working as a Product Analyst at Pearler, collaborating with cross-functional teams to create and improve an investing app designed to help anyone reach financial independence. I am also a Researcher and Academic Tutor at my university – contributing to leading research projects on statistical analysis of individual athletes in professional sports and teaching fundamental Python computing concepts to a new generation of students.</div>
+	  <div class="body-text">Work and university aside, I have led and volunteered at multiple student and charity organisations – giving back to communities that help to develop and improve the conditions of many.</div>
+	  <div class="body-text">Through my work experiences and extra-curriculars, I have been able to develop many items and work on projects that have helped me to develop strong skills around:</div>
+	    <ul>
+	    <li>Product Design,</li>
+	    <li>Business Development,</li>
+	    <li>Brand Management, and</li>
+	    <li>Data analytics.</li>
+	    </ul>
+	  <div class="body-text">PS: I love rowing and running – so you might often find me competing in long-distance races :)</div>
+        </div>
+      </div>
+
+      <!-- PROJECTS / MY WORK SECTION -->
+      <div id="my-work-section">
+        <!-- TODO - Change the subheader-text to whatever you want the Projects section header to say -->
+        <span class="subheader-text">My Work / My Projects</span>
+        <div class="body-text">Note: W = Work, P = Projects, EC = Extracurriculars</div>
+
+        <div class="projects-container">
+          <!-- 
+            TODO
+
+            This is where the project cards live. Here's a base level project card for you to copy:
+            <div class="project-card">
+              <img src="./assets/images/IMAGE_NAME" class="project-image">
+              <div class="project-card-text-container">
+                <div class="subheader-text project-title">PROJECT_NAME</div>
+                <div class="body-text project-card-text">SMALL_PROJECT_DESCRIPTION</div>
+              </div>
+              <a class="button" href="./project-pages/PROJECT_PAGE_NAME.html">
+                <span class="button-text">Read More</span>
+                <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+              </a>
+            </div>
+
+            - To add a project to the this area, copy the above, paste it below this comment, and change the following:
+                - IMAGE_NAME: the name of the image file in assets/images
+                - PROJECT_NAME: the name of the project (keep it short, it only shows 1 line)
+                - SMALL_PROJECT_DESCRIPTION: a quick project description (max 4 lines)
+                - PROJECT_PAGE_NAME.html: the html filename for the project (must be in project-pages folder)
+          -->
+          <div class="project-card">
+            <img src="./assets/images/project - aws.png" class="project-image">
+            <div class="project-card-text-container">
+              <div class="subheader-text project-title">(W) Amazon Web Services</div>
+              <div class="body-text project-card-text">Coming soon...</div>
+            </div>
+            <a class="button" href="./project-pages/project-template.html">
+              <span class="button-text">Read More</span>
+              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+            </a>
+          </div>
+          <div class="project-card">
+            <img src="./assets/images/project - nasdaq.png" class="project-image">
+            <div class="project-card-text-container">
+              <div class="subheader-text project-title">(W) Nasdaq</div>
+              <div class="body-text project-card-text">Coming soon...</div>
+            </div>
+            <a class="button" href="./project-pages/project-template.html">
+              <span class="button-text">Read More</span>
+              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+            </a>
+          </div>
+          <div class="project-card">
+            <img src="./assets/images/project - pearler.png" class="project-image">
+            <div class="project-card-text-container">
+              <div class="subheader-text project-title">(W) Pearler</div>
+              <div class="body-text project-card-text">Coming soon...</div>
+            </div>
+            <a class="button" href="./project-pages/project-template.html">
+              <span class="button-text">Read More</span>
+              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+            </a>
+          </div>
+	  <div class="project-card">
+            <img src="./assets/images/project - accsoc.png" class="project-image">
+            <div class="project-card-text-container">
+              <div class="subheader-text project-title">(EC) UNSW Accounting Society</div>
+              <div class="body-text project-card-text">Coming soon...</div>
+            </div>
+            <a class="button" href="./project-pages/project-template.html">
+              <span class="button-text">Read More</span>
+              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer">
+      <!-- href to Instagram account -->
+      <a class="icon-link" target="_blank" href="https://www.instagram.com/blckspces/">
+        <image src="./assets/icons/instagram.svg" class="footer-icon"/>
+      </a>
+    </div>
+
+	</body>
+</html>
