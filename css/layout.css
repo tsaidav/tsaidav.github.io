@@ -167,7 +167,7 @@ body {
     }
 
     .gallery-image-container.quarter-width {
-      width: calc((100% - 32px) / 4);
+      width: calc((100% - 28px) / 4);
     }
 
     .gallery-image {
