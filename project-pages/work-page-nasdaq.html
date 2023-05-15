@@ -60,15 +60,14 @@
         <!-- TODO - Change the 'subheader-text' to whatever you want the Gallery section header to say -->
         <div class="subheader-text">Main Project</div>
 	<div class="body-text"><b>Role:</b> Software Engineer Intern</div>
-	<div class="body-text"><b>Problem:</b> Candidates and new hires were confused on the organisational structure and hiring processes of AWS.</div>
-	<div class="body-text"><b>My Solution: <font color="FF9900">Invent and Simplify</font></b> new preparation documents and team baseball cards to help the Talent Acquisition team recruit for our Infrastructure Operation teams – providing all the effective and necessary information for candidates to succeed in today’s job market.</div>
-	<div class="body-text"><b>Result:</b><br>
-	    <ul>
-	    <li>18.8% increase in candidate-to-hire conversion rate in less than 3 months,</li>
-	    <li>97.2% positive feedback rating on the items provided,</li>
-            <li>Named ‘<i>APJC Leadership Principles Champion 2021</i>’.</li>
-	    </ul>
-      	</div>
+	<div class="body-text"><b>API Scope for main project:</b><br>
+	      <b>/favcount</b><br>
+	      Runs the <u>favcount</u> command to return a snapshot of the current total number of messages indicated in the .fav (identified by market code and trade date). Note that this command is used on incomplete favs for troubleshooting and progress checking. As this command could take a significant time to execute it will need to be implemented with an asynchronous design (eg return HTTP code 202 with an ID for polling the progress until results are ready).<br>
+              <b>/favdump</b><br>
+	      Runs the <u>favdump</u> command to query a .fav (identified by market code and trade date) and return the results of the query.<br>
+	      <b>/filestat</b><br>
+	      Runs the <u>filestat</u> command to return the status of all files within the given range of dates and process configurations, including: Date last modified, File size, File type, and other items that I cannot disclose.
+	</div>
 	<div class="body-text"><b>Tech stack:</b> Python, JavaScript, Bash, AWS, AWS CDKs.</div>
 	<div class="body-text"><b>Measurement Metrics:</b> runtime, and other internal Nasdaq tools.</div>
 	<div class="body-text"><b>A glimpse at the project is unavailable due to confidentiality agreements in which I am bound by due to the nature of the work.</b></div>
